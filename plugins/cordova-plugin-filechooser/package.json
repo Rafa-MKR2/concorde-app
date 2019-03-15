@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-filechooser",
+      "/home/rafaeldcarmo/Documentos/app/concorde"
+    ]
+  ],
+  "_from": "cordova-plugin-filechooser@latest",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-plugin-filechooser@1.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-filechooser",
+  "_nodeVersion": "8.14.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-filechooser_1.2.0_1545401025618_0.29108642838388366"
+  },
+  "_npmUser": {
+    "email": "ibby@zyra.ca",
+    "name": "ihadeed"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-filechooser",
+    "raw": "cordova-plugin-filechooser",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-filechooser/-/cordova-plugin-filechooser-1.2.0.tgz",
+  "_shasum": "3a3a3d9c5bef733076f1f6b59e465f60a0d96577",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-filechooser",
+  "_where": "/home/rafaeldcarmo/Documentos/app/concorde",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ihadeed/cordova-filechooser/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-filechooser",
+    "platforms": [
+      "android",
+      "windows"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova FileChooser Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 8,
+    "integrity": "sha512-ycL9ML3wlRQ8wfK7vCG8gobv1f3VIdO52m0LA9mPSzLblbu0AXJs89yCRxZB87+08/V96qBxrmkxMsMmVYu5wA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcHPLCCRA9TVsSAnZWagAAmj8P/AqIdXhjsnGiNJLb/+Qi\nxbuy3V6uYdrm6D5MCH40+ieg31iZZul5ev/Me89Qzbu5Dpsh96uBFDsiWup+\nbUuQngNPsKDNcKjy0YTrCF/w3KqRElv1UqYLv9VsFSaqrSHZgS5lNKCoGwE6\nc3q9F0cS/H3qxmaF1UpoF9zo9dCex9LGbauB+UxEBJR5mJavJLhy2ofrYTwq\nisl+IrZ0mUhzuDrbOJbR3ivIafmgetCWpWc9l6D6+yLoGSGoovjg3mau+KPO\nqr4FRdVj8KhMebiWNbi4PTgb93fz/i1+8V8wwC9S1dJJT9GcbutOu/FWjUhf\neQHK/0LBv8aK0zc9ZzLHD9h9MBcItPgtz/GhaqnIcLaFn2OKEuRpVVkSuJDb\naFsImolb8cFbno53t5X5aC5TjSfXgDLGgrLqOIGwWMt6qIdhCX78DhQtbCbY\nrh+zEWsjSJSjrOnhnWjyvh6fw6F9iOj72kJ3l70eWAshwWjDOpw0/D4wLBZf\nri086g1gegcbM3eGBqiw08SyMM9svCc3ID+h2AoHyGdfXHXqmqGr4gYEn2A2\nBN/Urp1uX76PC1SNNlek/0DwXxpl/5K+ZzA97jvvs1Mbb4ody0krAaEUSQsw\nTvq3OJmNPQGsci35SArtkjxO5HdOzcyohvP4tz60QYs5i79B1Ba0+Wr3wnUN\nTCDI\r\n=0lR9\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "3a3a3d9c5bef733076f1f6b59e465f60a0d96577",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-filechooser/-/cordova-plugin-filechooser-1.2.0.tgz",
+    "unpackedSize": 46541
+  },
+  "gitHead": "00301cf86f1f0663acf6469e1b123b6c947ea237",
+  "homepage": "https://github.com/ihadeed/cordova-filechooser#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ihadeed",
+      "email": "ibby@zyra.ca"
+    }
+  ],
+  "name": "cordova-plugin-filechooser",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihadeed/cordova-filechooser.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.0"
+}

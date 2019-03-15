@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-native-ringtones",
+      "/home/rafaeldcarmo/Documentos/app/concorde"
+    ]
+  ],
+  "_from": "cordova-plugin-native-ringtones@latest",
+  "_id": "cordova-plugin-native-ringtones@0.2.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-native-ringtones",
+  "_nodeVersion": "6.9.5",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-native-ringtones-0.2.5.tgz_1492310889449_0.9422587717417628"
+  },
+  "_npmUser": {
+    "email": "Toz7@pitt.edu",
+    "name": "tongzhang"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-native-ringtones",
+    "raw": "cordova-plugin-native-ringtones",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-native-ringtones/-/cordova-plugin-native-ringtones-0.2.5.tgz",
+  "_shasum": "353c927bf1ae872f3dcd6dae235b2c91357ba781",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-native-ringtones",
+  "_where": "/home/rafaeldcarmo/Documentos/app/concorde",
+  "author": {
+    "name": "Tong Zhang"
+  },
+  "bugs": {
+    "url": "https://github.com/TongZhangzt/cordova-plugin-native-ringtones/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-native-ringtones",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "cordova-plugin-media": "*"
+  },
+  "description": "Get and play the native ringtone list on Android/IOS devices.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "353c927bf1ae872f3dcd6dae235b2c91357ba781",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-native-ringtones/-/cordova-plugin-native-ringtones-0.2.5.tgz"
+  },
+  "gitHead": "182dd599967883f6e4e5411522fdf2e58e53b661",
+  "homepage": "https://github.com/TongZhangzt/cordova-plugin-native-ringtones#readme",
+  "keywords": [
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "ecosystem:cordova",
+    "native ringtones",
+    "ringtone list",
+    "system sound"
+  ],
+  "license": "Apache 2.0",
+  "maintainers": [
+    {
+      "name": "tongzhang",
+      "email": "Toz7@pitt.edu"
+    }
+  ],
+  "name": "cordova-plugin-native-ringtones",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TongZhangzt/cordova-plugin-native-ringtones.git"
+  },
+  "scripts": {},
+  "version": "0.2.5"
+}

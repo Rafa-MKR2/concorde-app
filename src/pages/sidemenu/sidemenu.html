@@ -1,0 +1,46 @@
+<ion-menu [content]="mycontent">
+  <ion-content class="textCenter">
+    
+   
+      <div class="splash-bg"></div>
+  <div class="splash-info">
+    <div class="splash-perfil">
+      <img height="100" width="100" style=" border-radius:100px;" src="{{user.avatar}}"> 
+    </div>
+    <div class="splash-intro">
+     
+    </div>
+  </div>
+        
+      <br>
+
+    <ion-list>
+        <button (click)="presentProfileModal()" ion-item color="none" >
+          <ion-icon name="person" item-left></ion-icon>
+         {{user.name}}
+        </button >
+
+        <button (click)="sugestoes()" ion-item color="none" >
+           <ion-icon name="bulb" item-left></ion-icon>
+           Sugestões
+          </button >
+
+          <button (click)="config()" ion-item color="none" >
+            <ion-icon name="construct" item-left></ion-icon>           
+             Configurações
+          </button>
+
+          <button (click)="singOut()" ion-item color="none" >
+            <ion-icon name="exit" item-left></ion-icon>
+            Sair
+          </button >
+    
+
+
+        </ion-list>
+
+
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mycontent [root]="rootPage"></ion-nav>

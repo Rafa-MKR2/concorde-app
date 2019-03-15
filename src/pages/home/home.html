@@ -1,0 +1,32 @@
+<ion-header>
+   
+  <ion-navbar color="dark">
+      <button  ion-button menuToggle>
+          <ion-icon  name="menu"></ion-icon>
+        </button>
+    <ion-title>Conversas</ion-title>
+  </ion-navbar>
+</ion-header>  
+
+<ion-content>
+
+
+
+  <ion-list *ngFor="let usuario of usuarios | async">
+    <div *ngIf="usuario.id !== user.uid">
+    <ion-item (click)="chat(usuario)">
+
+      <ion-avatar item-left>
+        <img src="{{usuario.photo}}">
+      </ion-avatar>
+      <h2>{{usuario.nome}}</h2>
+      <p>{{usuario.emeil}}</p> 
+
+     <ion-icon *ngIf="usuario.status==='online'" name="radio-button-on"  color="secondary" item-right item-end></ion-icon>
+
+  </ion-item>
+  </div>
+
+  </ion-list>
+ 
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "concorde",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

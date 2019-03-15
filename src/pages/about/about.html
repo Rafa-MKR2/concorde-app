@@ -1,0 +1,52 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>Perfil</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content>
+    <ion-item no-lines>
+      <div class="avatar-wrapper">
+        <ion-avatar>
+          <img [src]="typeFormateImage">
+        </ion-avatar>
+  
+        <button (click)="presentActionSheet()" class="btn-tirar-foto" ion-button icon-only round>
+          <ion-icon name="camera"></ion-icon>
+        </button>
+      </div>
+    </ion-item>
+  
+    <ion-card>  
+      <ion-item>
+        <ion-icon name="contact" item-left></ion-icon>
+        <ion-input type="text"  [(ngModel)]="nome" name="Nome"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+        <ion-icon name="at" item-left></ion-icon>
+       <p>{{email}}</p> 
+      </ion-item>
+ 
+  
+      <ion-item>
+        <ion-icon name="call" item-left></ion-icon>
+        <ion-input type="tel" placeholder="Adicione telefone" [(ngModel)]="tel"  name="tel"></ion-input>
+      </ion-item> 
+
+      <ion-item>
+          <ion-icon name="calendar" item-left></ion-icon>
+          <ion-input type="date"  [(ngModel)]="dataLastLogin"  name="data"></ion-input>
+        </ion-item>
+    </ion-card>
+  <br>
+     
+    <button (click)=" uploadImage()" ion-button color="secondary" block style="color:#FDFDFD;">
+        Salvar
+      </button>
+  <br>
+    </ion-content>
+  

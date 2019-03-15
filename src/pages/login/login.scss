@@ -1,0 +1,48 @@
+page-login {
+    .splash-bg {
+        position: relative;
+        background: url('https://firebasestorage.googleapis.com/v0/b/portifolio-rafa.appspot.com/o/game-background-7980_imgs_7980_2.jpg?alt=media&token=fc0e0f44-cca9-4bd9-bcb6-a883cdb50503') no-repeat transparent;
+        background-size: cover;
+        z-index: 1;
+        height:35%;
+        width: 100%;
+        flex-flow: row;
+        display: flex;
+        align-items: center;
+        background-repeat: repeat-y;
+        animation: animatedBackground 30s linear infinite;
+    } 
+    
+    @keyframes animatedBackground {
+        from { background-position: 0 0; }
+        to { background-position: 100% 0; }
+    }
+    
+    .splash-info {
+        position: relative;
+        z-index: 2;
+        margin-top: -64px;
+        text-align: center;
+    }
+    .splash-logo {
+        margin: auto auto 10px;
+        background: url('https://firebasestorage.googleapis.com/v0/b/portifolio-rafa.appspot.com/o/user.jpg?alt=media&token=38768c44-cacd-490c-8456-23aa81009f65') repeat transparent;
+        background-size: 100%;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .splash-intro {
+        font-size: 18px;
+        font-weight: bold;
+        max-width: 80%;
+        margin: auto;
+    }
+    button.login {
+        margin-top: 25px;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    .form{
+        padding: 15px;
+    }
+}

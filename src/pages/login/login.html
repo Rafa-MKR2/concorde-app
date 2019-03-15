@@ -1,0 +1,57 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title text-center>Concorde</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content scroll="false" >
+
+  <div class="splash-bg"></div>
+  <div class="splash-info">
+    <div class="splash-logo"></div>
+    <div class="splash-intro">
+      
+    </div>
+  </div>
+  <form class="form"> 
+  
+      <ion-item >
+        <ion-label floating>
+          E-mail
+        </ion-label>
+        <ion-input type="email" [(ngModel)]="email"  name="logEmail"></ion-input>
+      </ion-item>
+      <ion-item >
+        <ion-label floating>
+          Senha
+        </ion-label>
+        <ion-input type="password" [(ngModel)]="password"  name="logpass"></ion-input>
+      </ion-item>
+
+    <div class="spacer" style="width:300px;height:31px;"></div>
+    <button   ion-button (click)="login()" color="dark" block style="color:#FDFDFD;">
+      Entrar
+    </button>
+    
+    <br>
+    <button ion-button (click)="singWithGoogle()"  icon-left  color="danger" block >
+        <ion-icon name="logo-google"></ion-icon>
+        Entrar com Google
+      </button>
+    <br>
+    <button ion-button clear (click)="cadastro()" color="positive" block href-inappbrowser="/signup">
+      Crie sua conta
+    </button>
+  </form>
+
+
+</ion-content>

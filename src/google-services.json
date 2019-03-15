@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "54950511803",
+    "firebase_url": "https://portifolio-rafa.firebaseio.com",
+    "project_id": "portifolio-rafa",
+    "storage_bucket": "portifolio-rafa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54950511803:android:ebbe6436ac75abc1",
+        "android_client_info": {
+          "package_name": "com.ionicframework.concorde12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54950511803-u1oks1qs1fsfh72d8ao6ae615rdsg745.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ionicframework.concorde12",
+            "certificate_hash": "297cc0a16fc43a411b08760ad1f39159e9b36ba8"
+          }
+        },
+        {
+          "client_id": "54950511803-2joua7muord2lh660hbl2v3s14tdrubt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEXaPde1WgKq_6PPNLLgfknB3mUBF4R8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54950511803-2joua7muord2lh660hbl2v3s14tdrubt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
